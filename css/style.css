@@ -1,0 +1,18 @@
+.grid-container {
+    width:90%;
+    max-width:960px;
+}
+.row-1 {
+    background-color: grey;
+    height:100px;
+    display:inline-block;
+}
+#logo {
+    float:left;
+    position:absolute;
+    top:15px;
+}
+#phrase {
+    float:left;
+    border: hotpink;
+}
