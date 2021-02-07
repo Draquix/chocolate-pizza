@@ -1,18 +1,87 @@
+body: {
+    margin:0 auto;
+}
 .grid-container {
-    width:90%;
     max-width:960px;
+    width:80%;
+    margin:0 auto;
 }
 .row-1 {
-    background-color: grey;
+    width:100%;
     height:100px;
     display:inline-block;
+    border-bottom: 15px solid rgb(189, 187, 187);
 }
 #logo {
     float:left;
-    position:absolute;
+    position:relative;
     top:15px;
+
 }
-#phrase {
+#caption {
     float:left;
-    border: hotpink;
+    margin-left:10px;
+    margin-top:16px;
 }
+#caption h2 {
+    font-size:2em;
+    font-family: Charm;
+    font-style: italic;
+}
+#icons2 {
+    margin-top:25px;
+    float:right;
+    margin-left:10px;
+}
+#icons {
+    margin-top:25px;
+    float:right;
+}
+.row-2 {
+    height:100px;
+    margin-top:65px;
+}
+.row-2 h1 {
+    font-size:34px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#print {
+    margin-top:0px;
+    display:inline-block;
+    float:right;
+}
+#print p{
+    float:right;
+}
+#row-3 {
+    margin-top:60px;
+}
+#instructions p {
+    margin-top:20px;
+    text-indent: 40px;
+    line-height: 24px;
+    font-size:20px;
+}
+#recipe {
+    margin-top: 40px;
+    width:100%;
+    margin-bottom:40px;
+    background-image: url(../img/list-bg.png);
+    display:inline-block;
+    margin:0 auto;
+    text-align: center;
+}
+.list {
+    margin-right:10%;
+    margin-left:10%;
+    float:left;
+}
+.strike {
+    text-decoration:line-through;
+}
+.list li {
+    margin:10px;
+    text-align:left;
+}
+
